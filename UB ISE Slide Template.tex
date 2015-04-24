@@ -19,6 +19,28 @@
 \usetheme[compress]{Berlin}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%%%% Color Setting %%%%%%%%%%%%%%%%%%%%%%%%%%
+\usecolortheme[named=NavyBlue]{structure} 
+
+\definecolor{UBblue}{RGB}{4,26,155}
+\definecolor{UBgray}{RGB}{102,102,102}
+
+\definecolor{UBskyblue}{RGB}{128,157,196}
+\definecolor{UBgreen}{RGB}{158,186,41}
+\definecolor{UBorange}{RGB}{229,147,25}
+\definecolor{UBtealblue}{RGB}{89,151,156}
+\definecolor{UBtan}{RGB}{204,190,82}
+\definecolor{UBbrown}{RGB}{105,73,18}
+
+\setbeamercolor{ublogo}{fg=black,bg=UBblue}
+\setbeamercolor{section in head/foot}{fg=white,bg=UBgray}
+
+\setbeamercolor{structure}{fg=UBskyblue,bg=}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
 %%%% Footline Setting %%%%%%%%%%%%%%%%%%%%%%%%%
 \setbeamertemplate{navigation symbols}{} 
 \setbeamertemplate{footline}{\hspace*{.5cm}\scriptsize{\insertshortauthor \hspace*{70pt} \hfill \insertframenumber/\inserttotalframenumber \hspace*{.5cm}}} 
@@ -31,12 +53,6 @@
 \@removefromreset{subsection}{section}
 \makeatother
 \setcounter{subsection}{1}
-
-\definecolor{UBblue}{RGB}{4,26,155}
-\definecolor{UBgray}{RGB}{102,102,102}
-
-\setbeamercolor{ublogo}{fg=black,bg=UBblue}
-\setbeamercolor{section in head/foot}{fg=white,bg=UBgray}
 
 \setbeamertemplate{headline}{
 	\begin{beamercolorbox}{ublogo}\vskip5pt
@@ -58,24 +74,11 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-
-
 %%%% Font Setting %%%%%%%%%%%%%%%%%%%%%%%%%%
 \usefonttheme{structurebold}
-
-%\usepackage{eulervm} %
-%\usepackage[scaled]{helvet} %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-%%%% Color Setting %%%%%%%%%%%%%%%%%%%%%%%%%%
-\usecolortheme[named=NavyBlue]{structure} 
-%\usecolortheme[overlystylish]{albatross}
-
-%\setbeamercolor{normal text}{fg=White, bg=RoyalPurple} 
-%\setbeamercolor{math text}{fg=White!80!Red, bg=RoyalPurple}
-%\setbeamercolor{structure}{fg=Orchid} 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 \setbeamercovered{transparent}
